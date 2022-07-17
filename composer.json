@@ -1,14 +1,14 @@
 {
-    "name": "divinity76/phpquoteshellarg",
+    "name": "hestiacp/phpquoteshellarg",
     "description": "php quote shell arguments",
     "keywords": ["quoteshellarg", "escapeshellarg"],
-    "homepage": "https://github.com/divinity76/phprouter",
+    "homepage": "https://github.com/hestiacp",
     "type": "library",
     "license": "Unlicense",
     "require": {
         "php": ">=7.2"
     },
     "autoload": {
-	"files":["src/Divinity76/quoteshellarg/quoteshellarg.php"]
+	"files":["src/Hestiacp/quoteshellarg/quoteshellarg.php"]
     }
 }

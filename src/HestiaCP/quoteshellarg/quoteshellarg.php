@@ -1,6 +1,6 @@
 <?php
 declare (strict_types = 1);
-namespace Divinity76\quoteshellarg;
+namespace Hesitacp\quoteshellarg;
 
 /**
  * quotes shell arguments

@@ -1,6 +1,6 @@
 {
     "name": "hestiacp/phpquoteshellarg",
-    "description": "php quote shell arguments",
+    "description": "Improved escape shell arguments for support of special charactars",
     "keywords": ["quoteshellarg", "escapeshellarg"],
     "homepage": "https://github.com/hestiacp",
     "type": "library",

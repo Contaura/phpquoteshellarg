@@ -11,7 +11,7 @@ namespace Hestiacp\quoteshellarg;
  * @return string
  */
 
-function quoteshellarg($arg): string
+function quoteshellarg(string | int | float $arg): string
 {
     if (\is_float($arg)) {
         // 17: >The 53-bit significand precision gives from 15 to 17 significant decimal digits precision.
@@ -19,9 +19,6 @@ function quoteshellarg($arg): string
     }
     if (\is_int($arg)) {
         return \escapeshellarg((string) $arg);
-    }
-    if (!\is_string($arg)) {
-        throw new \InvalidArgumentException('Argument #1 ($arg) must be of type string|int|float, ' . (is_object($arg) ? get_class($arg) : gettype($arg)) . ' given');
     }
     static $isUnix = null;
     if ($isUnix === null) {

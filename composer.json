@@ -6,7 +6,7 @@
     "type": "library",
     "license": "Unlicense",
     "require": {
-        "php": ">=7.2"
+        "php": ">=8.0"
     },
     "autoload": {
 	"files":["src/Hestiacp/quoteshellarg/quoteshellarg.php"]

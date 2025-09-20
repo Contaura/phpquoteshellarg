@@ -10,7 +10,7 @@ the script is just a standalone .php file, you can just copypaste it.
 
 another alternative is to use composer:
 ```
-composer require 'hestiacp/phpquoteshellarg'
+composer require 'contaura/phpquoteshellarg'
 ```
 # usage
 

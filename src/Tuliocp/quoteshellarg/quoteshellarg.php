@@ -1,6 +1,6 @@
 <?php
 declare (strict_types = 1);
-namespace Hestiacp\quoteshellarg;
+namespace Tuliocp\quoteshellarg;
 
 /**
  * quotes shell arguments

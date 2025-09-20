@@ -1,14 +1,14 @@
 {
-    "name": "hestiacp/phpquoteshellarg",
+    "name": "tuliocp/phpquoteshellarg",
     "description": "Improved escape shell arguments for support of special charactars",
     "keywords": ["quoteshellarg", "escapeshellarg"],
-    "homepage": "https://github.com/hestiacp",
+    "homepage": "https://github.com/Contaura/tuliocp",
     "type": "library",
     "license": "Unlicense",
     "require": {
         "php": ">=8.0"
     },
     "autoload": {
-	"files":["src/Hestiacp/quoteshellarg/quoteshellarg.php"]
+	"files":["src/Tuliocp/quoteshellarg/quoteshellarg.php"]
     }
 }

@@ -17,7 +17,7 @@ composer require 'contaura/phpquoteshellarg'
 ```
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
-use function Hestiacp\quoteshellarg\quoteshellarg;
+use function Tuliocp\quoteshellarg\quoteshellarg;
 
 $str="æøå\x01";
 var_dump(["str"=>$str,"escapeshellarg"=>escapeshellarg($str), "quoteshellarg"=>quoteshellarg($str)]);
